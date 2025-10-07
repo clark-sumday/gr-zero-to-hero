@@ -463,8 +463,8 @@ from utils.colorblind_colors import COLORS
 
 ## Curriculum Path
 
+0. **Single-Variable Calculus** ✅ (Complete - Essential foundation for those without calculus background)
 1. **Linear Algebra** ✅ (Complete)
-1.5. **Single-Variable Calculus** ✅ (Complete - NEW! Essential foundation)
 2. **Multivariable Calculus** ✅ (Complete - includes 3D curl visualization)
 3. **Differential Equations** ✅ (Complete)
 4. **Curves & Surfaces** ✅ (Complete)
@@ -477,12 +477,12 @@ from utils.colorblind_colors import COLORS
 11. **GR Solutions** ✅ (Complete - includes Penrose diagram)
 12. **GR Phenomena** ✅ (Complete)
 
-Each lesson takes ~4-6 hours to complete. Lesson 1.5 takes ~6-8 hours.
+Each lesson takes ~4-6 hours to complete. Lesson 0 takes ~6-8 hours.
 
 ### Recent Enhancements
 
 **NEW LESSON ADDED (Critical Gap Fixed):**
-- **Lesson 1.5: Single-Variable Calculus** (6-8 hours)
+- **Lesson 0: Single-Variable Calculus** (6-8 hours)
   - Fills critical gap identified by pedagogy review
   - Covers limits, derivatives, integration, fundamental theorem, exponentials
   - Makes curriculum truly "from scratch" - no prior calculus needed

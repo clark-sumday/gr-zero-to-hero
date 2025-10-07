@@ -59,7 +59,7 @@ def main():
     print("""
 ╔══════════════════════════════════════════════════════════╗
 ║     Single-Variable Calculus - Practice Quiz            ║
-║     Lesson 1.5: Limits, Derivatives, Integration        ║
+║     Lesson 0: Limits, Derivatives, Integration          ║
 ╚══════════════════════════════════════════════════════════╝
 
 This quiz tests your understanding of:

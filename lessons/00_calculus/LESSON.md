@@ -1,8 +1,8 @@
-# Lesson 1.5: Single-Variable Calculus
+# Lesson 0: Single-Variable Calculus
 
 **Topics:** Limits, Derivatives, Integration, Fundamental Theorem, Exponentials, Logarithms
 
-**Prerequisites:** Lesson 1 (Linear Algebra), high school algebra, basic trigonometry
+**Prerequisites:** High school algebra, basic trigonometry
 
 **Time:** ~6-8 hours
 
@@ -1081,8 +1081,8 @@ Everything you learned here extends to multiple dimensions:
 - **Integration → Path Integrals** (geodesics, action)
 - **Exponentials → Metric Components** (e^(2Φ) in Schwarzschild solution)
 
-**You're now ready for Lesson 2: Multivariable Calculus!** 🚀
+**You're now ready for Lesson 1: Linear Algebra!** 🚀
 
 ---
 
-**Next Lesson:** [Multivariable Calculus](../02_multivariable_calculus/LESSON.md) - Extending calculus to functions of multiple variables!
+**Next Lesson:** [Linear Algebra](../01_linear_algebra/LESSON.md) - Vectors, matrices, and transformations!

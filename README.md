@@ -113,9 +113,9 @@ u + v = [4 4]
 
 ## 📚 Curriculum: 13 Lessons
 
-### Foundation Mathematics (Lessons 1-3)
+### Foundation Mathematics (Lessons 0-3)
+0. **Single-Variable Calculus** ✅ - Limits, derivatives, integration, exponentials, fundamental theorem
 1. **Linear Algebra** ✅ - Vectors, matrices, eigenvalues, transformations
-1.5. **Single-Variable Calculus** ✅ - Limits, derivatives, integration, exponentials, fundamental theorem
 2. **Multivariable Calculus** ✅ - Gradients, divergence, curl, Lagrange multipliers
 3. **Differential Equations** ✅ - ODEs, PDEs, numerical methods, phase portraits
 
@@ -135,7 +135,7 @@ u + v = [4 4]
 12. **GR Phenomena** ✅ - Black holes, lensing, GPS, cosmology
 
 **Total time:** ~56-88 hours (depending on prior knowledge)
-**Each lesson:** ~4-6 hours (Lesson 1.5: ~6-8 hours)
+**Each lesson:** ~4-6 hours (Lesson 0: ~6-8 hours)
 
 ---
 
@@ -216,7 +216,7 @@ These demonstrate each concept as a full program.
 - **Time:** Commitment to work through 56-88 hours of material
 
 ### NOT Required
-- College-level calculus (Lesson 1.5 teaches it from scratch!)
+- College-level calculus (Lesson 0 teaches it from scratch!)
 - College-level mathematics (you'll learn it step by step)
 - Physics degree (explained from scratch)
 - Previous GR exposure
