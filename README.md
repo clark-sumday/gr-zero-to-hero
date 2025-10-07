@@ -13,7 +13,6 @@ An **interactive, text-based tutorial** designed specifically for learning on a 
 - **Code** examples in a Python terminal
 - **Visualize** concepts with matplotlib/numpy
 - **Practice** with built-in quizzes
-- **Ask** an AI assistant when stuck
 
 **This is NOT:**
 - A video course
@@ -40,30 +39,23 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-### 2. Optional: AI Assistant Setup
+### 2. Set Up Two Panels
 
-```bash
-cp .env.example .env
-# Edit .env and add: ANTHROPIC_API_KEY=your_key_here
-```
-
-### 3. Set Up Three Panels
-
-For the best learning experience, open three side-by-side panels:
+For the best learning experience, open two side-by-side panels:
 
 ```
-┌─────────────────┬─────────────────┬─────────────────┐
-│   📖 LESSON     │   💻 TERMINAL   │   🤖 AI HELP    │
-│   (Textbook)    │   (Code/Play)   │   (If stuck)    │
-│                 │                 │                 │
-│   LESSON.md     │   python        │   assistant.py  │
-│   Read concepts │   Run snippets  │   Ask questions │
-│   Study theory  │   Visualize     │   Get hints     │
-│   Work problems │   Experiment    │   Clarify       │
-└─────────────────┴─────────────────┴─────────────────┘
+┌─────────────────┬─────────────────┐
+│   📖 LESSON     │   💻 TERMINAL   │
+│   (Textbook)    │   (Code/Play)   │
+│                 │                 │
+│   LESSON.md     │   python        │
+│   Read concepts │   Run snippets  │
+│   Study theory  │   Visualize     │
+│   Work problems │   Experiment    │
+└─────────────────┴─────────────────┘
 ```
 
-### 4. Start Learning
+### 3. Start Learning
 
 ```bash
 # Panel 1: Open the lesson textbook
@@ -72,17 +64,13 @@ open lessons/01_linear_algebra/LESSON.md
 
 # Panel 2: Start Python terminal
 python
-
-# Panel 3 (optional): Open AI assistant in Python
-# >>> from utils.ai_assistant import AIAssistant
-# >>> assistant = AIAssistant()
 ```
 
 **First lesson:** [Linear Algebra Foundations](lessons/01_linear_algebra/LESSON.md)
 
 ---
 
-## 💻 How the Three-Panel Setup Works
+## 💻 How the Two-Panel Setup Works
 
 ### Panel 1: The Textbook (LESSON.md)
 
@@ -120,26 +108,6 @@ u + v = [4 4]
 - Use `%matplotlib` for auto-displaying plots
 - Modify values and re-run to experiment
 - Keep it open - don't restart between sections!
-
-### Panel 3: AI Assistant (Optional)
-
-If you get stuck, use the AI assistant:
-
-```python
-from utils.ai_assistant import AIAssistant
-
-assistant = AIAssistant()
-assistant.set_lesson_context(
-    "Lesson 1: Linear Algebra",
-    "Vectors and Matrices",
-    ["vectors", "dot product", "cross product"]
-)
-
-# Ask questions
-assistant.ask("Why does the cross product only work in 3D?")
-assistant.ask("Can you give me another example of eigenvectors?")
-assistant.ask("I don't understand the parallelogram method")
-```
 
 ---
 
@@ -194,7 +162,7 @@ lessons/01_linear_algebra/
 2. **Copy** code snippet to Python terminal
 3. **Run** and see output/visualizations
 4. **Modify** values and re-run to experiment
-5. **Answer** practice questions (use hints if stuck)
+5. **Answer** practice questions (progressive hints available)
 6. **Move** to next section
 7. **Quiz** yourself when done: `python quiz.py`
 
@@ -269,9 +237,8 @@ These demonstrate each concept as a full program.
 3. **Visualize Often** - Run all visualization code
 4. **Experiment** - Change values, break things, explore
 5. **Do Practice Problems** - They solidify understanding
-6. **Use AI Assistant** - No shame in asking for help
-7. **Take Breaks** - GR is dense; let it sink in
-8. **Review** - Revisit earlier lessons if confused
+6. **Take Breaks** - GR is dense; let it sink in
+7. **Review** - Revisit earlier lessons if confused
 
 ### Common Terminal Workflow
 
@@ -301,9 +268,6 @@ Each lesson builds on previous ones. Concepts are introduced when needed, not be
 
 ### ✅ Practice Questions
 Every section has questions with progressive hints and detailed solutions.
-
-### ✅ AI Assistant Integration
-Get help when stuck without leaving your learning flow.
 
 ### ✅ Based on Open Resources
 All content derived from MIT OCW, arXiv, and other open educational materials.
@@ -391,17 +355,6 @@ pip install -r requirements.txt --upgrade
 python -c "from utils import colorblind_colors; print('✓ Working!')"
 ```
 
-### AI assistant not working
-```bash
-# Check .env file exists and has API key
-cat .env  # Should show: ANTHROPIC_API_KEY=sk-...
-
-# Test it
-python -c "from utils.ai_assistant import AIAssistant; a = AIAssistant(); print('✓ Working!')"
-```
-
-**Note:** Lessons work fine without the AI assistant - it's just an optional help feature!
-
 ### Path issues in code snippets
 ```python
 # Add project to Python path at start of session
@@ -442,7 +395,7 @@ Content based on:
 ## 🎓 Ready to Start?
 
 1. ✅ Set up your environment (see Quick Start above)
-2. ✅ Open three panels (textbook, terminal, AI assistant)
+2. ✅ Open two panels (textbook, terminal)
 3. ✅ Begin with [Lesson 1: Linear Algebra](lessons/01_linear_algebra/LESSON.md)
 
 **The journey from linear algebra to General Relativity starts now. Let's go! 🚀**
@@ -465,10 +418,8 @@ gr/
 │   └── ...
 ├── utils/
 │   ├── colorblind_colors.py   # Accessible color schemes
-│   ├── ai_assistant.py        # Claude API integration
 │   └── __init__.py
 ├── requirements.txt
-├── .env                   # API key (optional)
 └── venv/                  # Virtual environment
 ```
 

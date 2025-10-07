@@ -1085,26 +1085,4 @@ Everything you learned here extends to multiple dimensions:
 
 ---
 
-## Need Help?
-
-Use the AI assistant:
-
-```python
-from utils.ai_assistant import AIAssistant
-
-assistant = AIAssistant()
-assistant.set_lesson_context(
-    "Lesson 1.5: Single-Variable Calculus",
-    "Derivatives and Integration",
-    ["limits", "derivatives", "chain rule", "integration", "fundamental theorem"]
-)
-
-# Ask questions
-assistant.ask("Why is e^x its own derivative?")
-assistant.ask("Can you give another example of the chain rule?")
-assistant.ask("How does calculus connect to curved spacetime?")
-```
-
----
-
 **Next Lesson:** [Multivariable Calculus](../02_multivariable_calculus/LESSON.md) - Extending calculus to functions of multiple variables!

@@ -1260,15 +1260,6 @@ Congratulations! You've learned the foundations of General Relativity. You now u
 - Leonard Susskind's "General Relativity" lectures
 - Misner, Thorne, Wheeler: "Gravitation" (the classic textbook)
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 10", "GR Foundations",
-                             ["equivalence principle", "Einstein equations", "geodesics"])
-assistant.ask("How does the equivalence principle lead to curved spacetime?")
-```
-
 ---
 
 **Ready to solve the equations?** → [Lesson 11: GR Solutions](../11_gr_solutions/LESSON.md)

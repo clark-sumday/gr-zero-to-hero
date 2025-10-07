@@ -1735,15 +1735,6 @@ Special Relativity is the foundation for General Relativity:
 - Susskind's "Special Relativity and Classical Field Theory" (Videos)
 - MinutePhysics: "Special Relativity" series (YouTube)
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 9", "Special Relativity",
-                            ["Lorentz", "spacetime", "four-vectors", "energy-momentum"])
-assistant.ask("Why can't information travel faster than light?")
-```
-
 ---
 
 **Ready to continue?** → [Lesson 10: Foundations of General Relativity](../10_gr_foundations/LESSON.md)

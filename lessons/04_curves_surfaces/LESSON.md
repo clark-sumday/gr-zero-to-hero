@@ -1426,15 +1426,4 @@ These concepts generalize to 4D spacetime:
 
 ---
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 4", "Curves and Surfaces",
-                            ["curvature", "torsion", "first fundamental form"])
-assistant.ask("Why is Gaussian curvature intrinsic?")
-```
-
----
-
 **Continue to:** → [Lesson 5: Manifolds](../05_manifolds/LESSON.md)

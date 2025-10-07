@@ -1497,15 +1497,6 @@ Varying with respect to the metric g_μν gives:
 - Susskind's "Theoretical Minimum: Classical Mechanics" (Videos)
 - 3Blue1Brown: "Brachistochrone problem" (Visual intuition)
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 8", "Classical Mechanics",
-                            ["Lagrangian", "Hamiltonian", "Noether", "action"])
-assistant.ask("Why do we need the Lagrangian formulation if Newton's laws work fine?")
-```
-
 ---
 
 **Ready to continue?** → [Lesson 9: Special Relativity](../09_special_relativity/LESSON.md)

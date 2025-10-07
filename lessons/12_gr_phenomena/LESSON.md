@@ -1763,15 +1763,6 @@ python quiz.py
 - Stack Exchange (Physics)
 - YouTube: Leonard Susskind's lectures
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 12", "GR Phenomena",
-                             ["lensing", "GPS", "black holes", "cosmology"])
-assistant.ask("How does the holographic principle relate to black hole entropy?")
-```
-
 ---
 
 **Thank you for learning General Relativity with us!**

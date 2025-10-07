@@ -1513,15 +1513,6 @@ Congratulations! You've explored the major solutions to Einstein's equations:
 - Hartle: "Gravity: An Introduction to Einstein's General Relativity"
 - Wald: "General Relativity" (advanced)
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 11", "GR Solutions",
-                             ["Schwarzschild", "Kerr", "FLRW", "gravitational waves"])
-assistant.ask("Why does the Kerr solution have an ergosphere but Schwarzschild doesn't?")
-```
-
 ---
 
 **Ready for the finale?** → [Lesson 12: GR Phenomena](../12_gr_phenomena/LESSON.md)

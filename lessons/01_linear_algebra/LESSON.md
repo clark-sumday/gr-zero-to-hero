@@ -798,14 +798,6 @@ Or check solutions in `SOLUTIONS.md`
 - MIT OCW 18.06: Linear Algebra (Gilbert Strang)
 - Khan Academy: Linear Algebra
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 1", "Linear Algebra", ["vectors", "dot product"])
-assistant.ask("Why does the cross product only work in 3D?")
-```
-
 ---
 
 **Ready to continue?** → [Lesson 2: Multivariable Calculus](../02_multivariable_calculus/LESSON.md)

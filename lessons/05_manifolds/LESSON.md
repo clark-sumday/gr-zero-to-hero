@@ -1505,15 +1505,4 @@ Test your understanding:
 
 ---
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 5", "Manifolds",
-                            ["tangent space", "charts", "one-forms"])
-assistant.ask("Why do tangent and cotangent vectors transform differently?")
-```
-
----
-
 **Continue to:** → [Lesson 6: Tensors](../06_tensors/LESSON.md)

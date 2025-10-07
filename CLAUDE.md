@@ -40,26 +40,24 @@ gr/
 │   └── 12_gr_phenomena/
 ├── utils/
 │   ├── colorblind_colors.py   # Accessible color schemes
-│   ├── ai_assistant.py        # Claude API integration
 │   ├── lesson_framework.py    # [DEPRECATED] Old Lesson class
 │   └── __init__.py
 ├── requirements.txt
-├── .env                       # ANTHROPIC_API_KEY
 └── venv/                      # Virtual environment
 ```
 
-## Learning Philosophy: Three-Panel Setup
+## Learning Philosophy: Two-Panel Setup
 
-Users are expected to have **three panels open**:
+Users are expected to have **two panels open**:
 
 ```
-┌─────────────────┬─────────────────┬─────────────────┐
-│   📖 LESSON     │   💻 TERMINAL   │   🤖 AI HELP    │
-│                 │                 │                 │
-│   Read theory   │   Run code      │   Ask questions │
-│   Study math    │   Visualize     │   Get hints     │
-│   Work problems │   Experiment    │   Clarify       │
-└─────────────────┴─────────────────┴─────────────────┘
+┌─────────────────┬─────────────────┐
+│   📖 LESSON     │   💻 TERMINAL   │
+│                 │                 │
+│   Read theory   │   Run code      │
+│   Study math    │   Visualize     │
+│   Work problems │   Experiment    │
+└─────────────────┴─────────────────┘
 ```
 
 ### Panel 1: The Textbook (LESSON.md)
@@ -73,13 +71,6 @@ Users are expected to have **three panels open**:
 - Copy/paste code from LESSON.md
 - Run and see output/visualizations
 - Modify values and experiment
-
-### Panel 3: AI Assistant (Optional)
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.ask("Why does the cross product only work in 3D?")
-```
 
 ## File Formats
 
@@ -133,10 +124,6 @@ source venv/bin/activate  # Windows: venv\Scripts\activate
 
 python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
-
-# Set up API key (optional)
-cp .env.example .env
-# Edit .env and add ANTHROPIC_API_KEY
 ```
 
 ### Using a Lesson
@@ -398,41 +385,6 @@ def check_answer(user_answer):
         return False, "Please enter a number"
 ```
 
-## AI Assistant Integration
-
-### In LESSON.md Files
-
-Show users how to use it:
-
-```markdown
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 1", "Linear Algebra", ["vectors", "dot product"])
-assistant.ask("Can you explain why eigenvalues are important for GR?")
-```
-```
-
-### Key Methods
-
-```python
-# Create assistant
-assistant = AIAssistant()
-
-# Set lesson context (helps it understand what you're learning)
-assistant.set_lesson_context(
-    lesson_name="Lesson 1: Linear Algebra",
-    topic="Vectors and Matrices",
-    concepts=["vectors", "linear independence", "eigenvalues"]
-)
-
-# Ask questions
-response = assistant.ask("Why is linear independence important?")
-
-# Clear history if switching topics
-assistant.clear_history()
-```
 
 ## Dependencies
 
@@ -441,8 +393,6 @@ assistant.clear_history()
 - matplotlib - 2D/3D plotting
 - scipy - Scientific algorithms
 - sympy - Symbolic mathematics
-- anthropic - AI assistant API
-- python-dotenv - Environment variables
 
 ### Physics-Specific
 - einsteinpy - GR calculations (Lessons 10-12)
@@ -500,10 +450,6 @@ import sys
 sys.path.append('/Users/clarkcarter/Claude/personal/gr')
 from utils.colorblind_colors import COLORS
 ```
-
-### AI Assistant Not Working
-- Check `.env` has valid `ANTHROPIC_API_KEY`
-- Lessons work fine without it (no `/ask` feature)
 
 ## Notes
 

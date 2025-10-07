@@ -1881,15 +1881,4 @@ Test your understanding:
 
 ---
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 6", "Tensors",
-                            ["metric tensor", "index notation", "raising indices"])
-assistant.ask("Why do we need both covariant and contravariant tensors?")
-```
-
----
-
 **Continue to:** → [Lesson 7: Riemannian Geometry](../07_riemannian_geometry/LESSON.md)

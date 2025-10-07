@@ -1075,12 +1075,3 @@ You've completed multivariable calculus! Key concepts:
 **Next Lesson:** Differential Equations (essential for physics equations in GR)
 
 ---
-
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 2", "Multivariable Calculus",
-                             ["gradient", "divergence", "optimization"])
-assistant.ask("Why is the gradient perpendicular to level curves?")
-```

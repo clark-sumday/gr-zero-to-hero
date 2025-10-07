@@ -1502,15 +1502,6 @@ A freely-falling observer (following a timelike geodesic) experiences the maximu
 - Schutz's "A First Course in General Relativity" (Chapters 5-6)
 - MIT OCW 8.962: General Relativity (Lectures 4-7)
 
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 7", "Riemannian Geometry",
-                            ["metric", "Christoffel", "Riemann tensor", "geodesics"])
-assistant.ask("How does the Riemann tensor relate to tidal forces in GR?")
-```
-
 ---
 
 **Ready to continue?** → [Lesson 8: Classical Mechanics](../08_classical_mechanics/LESSON.md)

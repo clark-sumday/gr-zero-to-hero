@@ -936,12 +936,3 @@ You've mastered differential equations! Key concepts:
 **Next Lesson:** Curves and Surfaces (differential geometry begins!)
 
 ---
-
-**Need Help?** Use the AI assistant:
-```python
-from utils.ai_assistant import AIAssistant
-assistant = AIAssistant()
-assistant.set_lesson_context("Lesson 3", "Differential Equations",
-                             ["ODEs", "phase portraits", "numerical methods"])
-assistant.ask("Why do complex eigenvalues give oscillating solutions?")
-```
