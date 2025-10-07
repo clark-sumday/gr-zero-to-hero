@@ -143,10 +143,11 @@ assistant.ask("I don't understand the parallelogram method")
 
 ---
 
-## 📚 Curriculum: 12 Lessons
+## 📚 Curriculum: 13 Lessons
 
 ### Foundation Mathematics (Lessons 1-3)
 1. **Linear Algebra** ✅ - Vectors, matrices, eigenvalues, transformations
+1.5. **Single-Variable Calculus** ✅ - Limits, derivatives, integration, exponentials, fundamental theorem
 2. **Multivariable Calculus** ✅ - Gradients, divergence, curl, Lagrange multipliers
 3. **Differential Equations** ✅ - ODEs, PDEs, numerical methods, phase portraits
 
@@ -165,8 +166,8 @@ assistant.ask("I don't understand the parallelogram method")
 11. **GR Solutions** ✅ - Schwarzschild, Kerr, FLRW, gravitational waves
 12. **GR Phenomena** ✅ - Black holes, lensing, GPS, cosmology
 
-**Total time:** ~50-80 hours (depending on prior knowledge)
-**Each lesson:** ~4-6 hours
+**Total time:** ~56-88 hours (depending on prior knowledge)
+**Each lesson:** ~4-6 hours (Lesson 1.5: ~6-8 hours)
 
 ---
 
@@ -244,10 +245,11 @@ These demonstrate each concept as a full program.
 ### Required
 - **Programming:** Basic Python (variables, functions, loops)
 - **Math:** High school algebra, basic trigonometry
-- **Time:** Commitment to work through 50-80 hours of material
+- **Time:** Commitment to work through 56-88 hours of material
 
 ### NOT Required
-- College-level mathematics (you'll learn it)
+- College-level calculus (Lesson 1.5 teaches it from scratch!)
+- College-level mathematics (you'll learn it step by step)
 - Physics degree (explained from scratch)
 - Previous GR exposure
 
